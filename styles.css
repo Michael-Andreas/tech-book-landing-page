@@ -226,10 +226,17 @@ li+li {
   margin-top: 16px;
 }
 
+.testimonial p {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
+
 footer {
   background-color: var(--neutral-900);
   color: white;
   background-image: url("./assets/images/pattern-light-bg.svg");
+  margin-top: 64px;
 }
 
 h3 {
