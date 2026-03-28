@@ -210,19 +210,19 @@ ul {
   list-style: none;
 }
 
-li {
+ul li {
   display: flex;
   align-items: center;
-  gap: 14px
+  gap: 14px;
 }
 
-li::before {
+ul li::before {
   content: url(./assets/images/icon-check.svg);
   display: inline-block;
   vertical-align: middle;
 }
 
-li+li {
+ul li+li {
   margin-top: 16px;
 }
 
@@ -230,6 +230,14 @@ li+li {
   font-size: 1.5rem;
   line-height: 1.1;
   letter-spacing: -2px;
+  padding-block: 32px;
+}
+
+.testimonial figcaption {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 footer {
